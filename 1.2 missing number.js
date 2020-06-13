@@ -10,9 +10,7 @@ function findMissingNumber(arrayOfIntegers, upperBound, lowerBound) {
   for (var i = 0; i < arrayOfIntegers.length; i++) {
     sumOfIntegers += arrayOfIntegers[i];
   }
-
-  
-  // Formula used: [(upperBound * (upperBound + 1)) / 2] - [(lowerBound * (lowerBound - 1)) / 2];
+// Formula used: [(upperBound * (upperBound + 1)) / 2] - [(lowerBound * (lowerBound - 1)) / 2];
 
   upperLimitSum = (upperBound * (upperBound + 1)) / 2;
   lowerLimitSum = (lowerBound * (lowerBound - 1)) / 2;
