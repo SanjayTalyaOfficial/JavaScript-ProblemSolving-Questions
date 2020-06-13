@@ -5,7 +5,9 @@ var outputStack = [];
 function enqueue(stackInput, item) {
   return stackInput.push(item);
 }
-function dequeue(stackInput, stackOutput) {
+function dequeue(stackInput, stackOutput)
+// for dequeue pop the item fro the stack
+{
   // Reverse the stack such that the first element of the output stack is the
   // last element of the input stack. After that, pop the top of the output to
   // get the first element that was ever pushed into the input stack
